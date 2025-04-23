@@ -41,11 +41,44 @@ print("El resultado de la multiplicacion es: " + str(resultado))
 
 #La potenciacion, es la operacion matematica mediante el cual multiplicamos un numero por si mismo las veces que nos indique el exponente. Su presentacion en Python es (**)
 
-print("Resta:")
+print("Exponente:")
 
 numero_uno = 5
-numero_dos = 4
+exponente = 5
 
-resultado = numero_uno - numero_dos
+resultado = numero_uno ** exponente
 
-print("El resultado de la resta es: " + str(resultado))
+print("El resultado del exponente es: " + str(resultado))
+
+#La division, es una operacion matematicas que consiste en averiguar cuantas veces un numero esta contenido en otro numero. Su signo en Python es (/)
+
+print("Division:")
+
+numero_uno = 5
+numero_dos = 2
+
+resultado = numero_uno / numero_dos 
+
+print("El resultado de la division es: " + str(resultado))
+
+#El modulo o resto, es la cantidad que sobra despues de efectuar una division, es decir, es el valor que se obtiene cuando un numero no puede ser dividido exactamente por otro. Su signo en Python es (%)
+
+print("Modulo:")
+
+numero_uno = 30
+numero_dos = 8
+
+resultado = numero_uno % numero_dos 
+
+print("El resultado del modulo es: " + str(resultado))
+
+#La division entera, es una operacion que consiste en obtener el valor entero de un numero, el cual resulte de una division entre dos numeros decimales o reales. Su representacion es Python es (//)
+
+print("Division entera:")
+
+numero_uno = 10
+numero_dos = 3
+
+resultado = numero_uno // numero_dos 
+
+print("El resultado de la division entera es: " + str(resultado))
